@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74c0e8, #b5e3f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background 0.5s;
+}
+
+#contenedor {
+    background: #245580;
+    color: white;
+    padding: 35px 25px;
+    width: 320px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+button {
+    background: #55b8e8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #319bd0;
+}
+
+#resultado {
+    background: rgba(255,255,255,0.12);
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    color: white;
+}
+
+#resultado h3 {
+    color: white;
+    font-size: 23px;
+}
+
+/* Fondos según el clima */
+
+body.clima-soleado {
+    background: linear-gradient(135deg, #f6c453, #ffe7a3);
+}
+
+body.clima-nublado {
+    background: linear-gradient(135deg, #778da9, #c5d1df);
+}
+
+body.clima-lluvia {
+    background: linear-gradient(135deg, #263b59, #6686a8);
+}
